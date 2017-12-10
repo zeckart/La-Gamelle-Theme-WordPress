@@ -1,5 +1,6 @@
-@import 'font-face';
-@import 'variables';
-@import 'normalize';
-@import 'main';
-@import 'mixin';
+@import '_font-face';
+@import '_variables';
+@import '_normalize';
+@import '_main';
+@import 'recettes/_single-recette';
+@import '_mixin';

@@ -445,3 +445,14 @@ template {
 [hidden] {
   display: none;
 }
+
+/*  Normalize Robin Ferrari
+   ========================================================================== */
+
+/* box sizing */
+*{
+	box-sizing: border-box;
+}
+figure{
+	margin: 0;
+}

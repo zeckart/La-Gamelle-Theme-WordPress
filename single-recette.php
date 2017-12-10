@@ -39,6 +39,10 @@
 		<?php endwhile; ?>
 	</main>
 </div>
+<div class="container">
+	<?php get_template_part("parts/author","info"); ?>
+</div>
+
 <div class="comments_row">
 	<div class="container">
 

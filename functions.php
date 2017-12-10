@@ -10,9 +10,13 @@ function zk_tastyburger_enqueue(){
 
 get_template_part('model/clean-wp-unused');
 get_template_part('model/nav');
-get_template_part('model/post-types');
+get_template_part('model/post-types/pt-recettes');
 get_template_part('model/images-sizes');
 get_template_part('model/acf/recette-fields');
+
+
+get_template_part('model/author/author-custom-field');
+get_template_part('controllers/authors');
 
 
 function get_info_recette($post_id){
